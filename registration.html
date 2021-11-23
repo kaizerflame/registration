@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <style>
+            .textarea {
+                padding: 1em;
+                border-radius: 20px;
+                border: 10px solid transparent;
+                outline: none;
+            }
+            body{
+                background-image: url(another.jpg);
+            }
+            h1 {
+                color:blue;
+                font-size:54px;
+                font-family:Georgia, 'Times New Roman', Times, serif;    
+            }
+        </style>     
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>First name</label>
+                <input> 
+            </div>
+            <br>
+            <div>
+                <label>Middle name</label>
+                <input>
+            </div>
+            <br>
+            <div>
+                <label>Family name</label>
+                <input>
+            </div>
+            <br>
+            <div>
+                <input type="radio" name="Gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="female">
+                <label for="female">female</label>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <br>
+            <div>
+            <textarea class="textarea" placeholder="Enter the message..."></textarea>
+            </div>
+            <br>
+            <div>
+            <input type="checkbox" id="hobbies1" name "hobbies1" value="Computer games">
+            <label for="hobbies1">Computer games</label>
+            <input type="checkbox" id="hobbies2" name "hobbies2" value="Playing music instruments">
+            <label for="hobbies2">Playing music instrument</label>
+            <input type="checkbox" id="hobbies3" name "hobbies3" value="Cooking">
+            <label for="hobbies3">Cooking</label>
+            <input type="checkbox" id="hobbies4" name "hobbies4" value="Drawing">
+            <label for="hobbies4">Drawing</label>
+            </div>
+            <br>
+            <div>
+                <label>Colors</label><br>
+                <select>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Black</option>
+                    <option>Green</option>
+                    <option>Violet</option>
+                    <option>Yellow</option>
+                </select>
+            </div>  
+            <br>
+            <div>
+                <textarea class="textarea" placeholder="Say something abou yourself"></textarea>
+                </div>
+                <br>
+            <button>Submit</button>
+            <button>Clear</button>
+        </form>
+    </body>
+</html>
